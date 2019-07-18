@@ -1,8 +1,0 @@
-package com.basic;
-
-public class MyTest {
-
-	public int add(int num) {
-		return ++num;
-	}
-}

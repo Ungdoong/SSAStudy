@@ -1,9 +1,0 @@
-package com.ssafy.java;
-
-public class Lotto {
-	static void main(String[] args) {
-		int[] numbers = new int[6];
-		
-		while(numbers[5] != 0)
-	}
-}

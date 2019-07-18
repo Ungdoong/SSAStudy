@@ -1,9 +1,0 @@
-package com.ssafy.java;
-
-public class AlpaTest1 {
-	public static void main(String[] args) {
-		char str = 'A';
-		
-		
-	}
-}
