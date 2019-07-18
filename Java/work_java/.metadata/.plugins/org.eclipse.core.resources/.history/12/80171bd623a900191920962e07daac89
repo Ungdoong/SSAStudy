@@ -1,0 +1,19 @@
+package com.ssafy.java;
+
+public class ArrayTest {
+	static int[] list;
+	//print(): 배열을 생성하고, 배열에 입력된 값을 출력
+	static void print() {
+		list = new int[]{34,23,64,25,12,75,22,88,53,37};
+		for(int num:list)
+			System.out.printf(num + " ");
+		System.out.println();
+	}
+	//total(): 배열에 입력된 값의 합계를 구하여 출력
+	static void total() {
+		int sum=0;
+	}
+	public static void main(String[] args) {
+		print();
+	}
+}

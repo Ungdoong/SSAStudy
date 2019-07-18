@@ -1,0 +1,7 @@
+package com.java.first;
+
+public class CheckPoint {
+	public static void main(String[] args) {
+		
+	}
+}

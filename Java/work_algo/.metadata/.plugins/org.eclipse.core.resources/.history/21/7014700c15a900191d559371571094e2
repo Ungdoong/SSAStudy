@@ -1,0 +1,16 @@
+package array1;
+
+import java.util.Scanner;
+
+public class Solution_D3_5431_민석이의과제체크하기_서울8반_정택진2{
+
+	public static void main(String args[]) throws Exception{
+		Scanner sc = new Scanner(System.in);
+		int tn = sc.nextInt();
+		
+		for(int tc = 0; tc < tn; tc++) {
+			int num_mem = sc.nextInt();
+			int com_mem = sc.nextInt();
+		}
+	}
+}

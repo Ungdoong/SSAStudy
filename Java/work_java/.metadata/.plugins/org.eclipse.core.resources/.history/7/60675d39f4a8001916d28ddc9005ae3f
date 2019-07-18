@@ -1,0 +1,10 @@
+package com.basic;
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+		int[] score = new int[100];
+		double[] point = new double[200];
+	}
+
+}

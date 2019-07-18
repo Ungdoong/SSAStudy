@@ -1,0 +1,18 @@
+package com.ssafy.algo;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class DigitTest1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		ArrayList list = new ArrayList();
+		int input;
+		while((input = sc.nextInt()) != 0) {
+			list.add(input);
+		}
+		
+		sc.close();
+	}
+}

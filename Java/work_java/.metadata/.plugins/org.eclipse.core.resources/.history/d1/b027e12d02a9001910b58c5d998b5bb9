@@ -1,0 +1,17 @@
+package com.basic;
+
+import java.util.Scanner;
+
+public class MethodTest3 {
+	//1.메소드 정의 2.사용
+	//
+	
+	public static void main(String[] args) {
+		//작성된 메소드 사용
+		printGreeting("정택진");
+		System.out.println(greeting("정택진"));
+		System.out.println(concat("안녕하세요!", "반갑습니다"));
+		System.out.println(abs(-5));
+		System.out.println(pi());
+	}
+}

@@ -1,0 +1,9 @@
+package com.basic;
+
+public class MethodTest {
+	//1.메소드 정의 2.사용
+	public static void main(String[] args) {
+		
+	}
+
+}
