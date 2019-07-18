@@ -1,0 +1,67 @@
+package array1;
+import java.util.Arrays;
+import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+public class Solution_D3_1289_원재의메모리복구하기_서울8반_정택진{
+	public static void main(String args[]) throws Exception{
+		//System.setIn(new FileInputStream("res/input_d1_2046.txt"));
+		InputStreamReader isr = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader(isr);
+		
+		OutputStreamWriter osw = new OutputStreamWriter(System.out);
+		BufferedWriter bw = new BufferedWriter(osw);
+		
+		int[] numbers = new int[50];
+		int number;
+		
+		try {
+			String line = br.readLine();
+			
+			bw.write(line);
+			number = Integer.parseInt((line);
+			bw.write(number);
+//			for(int i = 0; i < line.length(); i++) {
+//				numbers[i] = Integer.parseInt(line);
+//			}
+			bw.flush();
+			bw.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+//		Scanner sc = new Scanner(System.in);
+//		int num=sc.nextInt();
+//		int[] nList = new int[50];
+//		for(int i = 0; i < num; i++)
+//			nList[sc.nextInt()-1]++;
+//		System.out.println(Arrays.toString(nList));
+//		int target, length, pre_num=3, change, cur_num;
+//		
+//		for (int i =0; i<num ; i++) {
+//			target=sc.nextInt();
+//			length = (int)(Math.log10(target)+1);
+//			change = 0;
+//			pre_num = 3;
+//			
+//			for(int j = 0; j <length; j++) {
+//				cur_num = target/(int)(Math.pow(10, length - j - 1));
+//				if(pre_num == 3) {
+//					change++;
+//				}
+//				else {
+//					if(cur_num != pre_num)
+//						change++;
+//				}
+//				
+//				pre_num = cur_num;
+//				target = target%(int)(Math.pow(10, length - j - 1));
+//			}
+//			System.out.println("#"+(i+1)+" "+change);
+//		}
+	}
+}

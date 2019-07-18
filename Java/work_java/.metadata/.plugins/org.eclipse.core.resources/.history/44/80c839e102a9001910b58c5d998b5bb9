@@ -1,0 +1,39 @@
+package com.basic;
+
+import java.util.Scanner;
+
+public class MethodTest3 {
+	//1.메소드 정의 2.사용
+	//average(): 정수형 변수 3개를 입력받아 그 평균을 double 타입으로 출력
+	static void average(int a, int b, int c) {
+		System.out.println((double)((a+b+c)/3));
+	}
+	//reverse(): boolean형 매개변수 한 개를 입력 받아 그 반대의 값을 리턴(true => false, false => true)
+	static boolean reverse(boolean flag) {
+		return !flag;
+	}
+	//result(): boolean형 매개변수 2개(a,b)를 받아 String 변수를 리턴
+	//a와 b가 모두 참인 경우에는 "ok"를 리턴. 그 이외에는 "cancel"을 리턴
+	static String result(boolean a, boolean b) {
+		return (a & b)?"ok":"cancel";
+	}
+	//loopString(): int형 변수(count)와 문자열 변수(msg) 한개를 입력 받아 count번 만큼 
+	//반복해서 msg 문자열을 출력 (한줄에 한문장씩)
+	static void loopString(int count, String msg) {
+		for(int i = 0; i < count; i++)
+			System.out.println(msg);
+	}
+	//getArea(): int형의 반지름 값(r)을 입력 받아 원면적을 계산한 후 리턴
+	static double getArea(int r) {
+		return Math.pow(r, 2)*Math.PI();
+	}
+	
+	public static void main(String[] args) {
+		//작성된 메소드 사용
+		printGreeting("정택진");
+		System.out.println(greeting("정택진"));
+		System.out.println(concat("안녕하세요!", "반갑습니다"));
+		System.out.println(abs(-5));
+		System.out.println(pi());
+	}
+}

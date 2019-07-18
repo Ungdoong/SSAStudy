@@ -1,0 +1,31 @@
+package com.ssafy.java;
+
+public class Lotto {
+	static void main(String[] args) {
+		int[] numbers = new int[6];
+		int index=0;
+		
+		while(numbers[5] != 0) {
+			int gen_num = (int)((Math.random()*45) + 1);
+			for(int number:numbers) {
+				if(gen_num == number)
+					break;
+				else if(number == numbers[5])
+					numbers[index++] = gen_num;
+			}				
+		}
+		
+		for(int i=0; i<numbers.length; i++) {
+			for(int j=i; j<numbers.length; j++) {
+				if(numbers[i] > numbers[j]) {
+					int tmp = numbers[i];
+					numbers[i] = numbers[j];
+					numbers[j] = tmp;
+				}
+			}
+		}
+		
+		for(int number:numbers)
+			System.out.printf("%d ",number);
+	}
+}

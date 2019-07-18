@@ -1,0 +1,13 @@
+package com.basic;
+
+public class MethodTest {
+	//1.메소드 정의 2.사용
+	//hello():console에 "hello,java"를 출력
+	void hello() {
+		System.out.println("hello,java");
+	}
+	public static void main(String[] args) {
+		//작성된 메소드 사용
+		
+	}
+}

@@ -1,0 +1,24 @@
+package com.basic;
+
+import java.util.Scanner;
+
+public class MethodTest3 {
+	//1.메소드 정의 2.사용
+	//average(): 정수형 변수 3개를 입력받아 그 평균을 double 타입으로 출력
+	static void average(int a, int b, int c) {
+		System.out.println((double)((a+b+c)/3));
+	}
+	//reverse(): boolean형 매개변수 한 개를 입력 받아 그 반대의 값을 리턴(true => false, false => true)
+	static boolean revers(boolean flag) {
+		return !flag;
+	}
+	
+	public static void main(String[] args) {
+		//작성된 메소드 사용
+		printGreeting("정택진");
+		System.out.println(greeting("정택진"));
+		System.out.println(concat("안녕하세요!", "반갑습니다"));
+		System.out.println(abs(-5));
+		System.out.println(pi());
+	}
+}
