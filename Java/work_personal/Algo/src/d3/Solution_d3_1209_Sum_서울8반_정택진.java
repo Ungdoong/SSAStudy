@@ -1,10 +1,9 @@
 package d3;
 
 import java.io.FileInputStream;
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution_d3_1209_Sum_¼­¿ï8¹İ_Á¤ÅÃÁø {
+public class Solution_d3_1209_Sum_ì„œìš¸8ë°˜_ì •íƒì§„ {
 	public static void main(String[] args) throws Exception{
 		System.setIn(new FileInputStream("res/input_d3_1209.txt"));
 		Scanner sc = new Scanner(System.in);

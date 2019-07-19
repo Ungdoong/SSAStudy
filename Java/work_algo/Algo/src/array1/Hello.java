@@ -10,5 +10,7 @@ public class Hello {
 		String s2=sc.nextLine();
 		int tc = sc.nextInt();
 		System.out.println(tc + ": "+ s1 + " / " + s2);
+		
+		sc.close();
 	}
 }

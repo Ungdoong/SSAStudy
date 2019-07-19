@@ -1,0 +1,18 @@
+package com.ssafy.algo;
+
+import java.io.FileInputStream;
+import java.util.Scanner;
+
+public class Solution21소금쟁이중첩_서울8반_정택진 {
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("res/Solution21소금쟁이중첩.txt"));
+		Scanner sc = new Scanner(System.in);
+		int tn=sc.nextInt();
+		
+		for(int tc=1; tc<=tn; tc++) {
+			int N=sc.nextInt();
+		}
+		
+		sc.close();
+	}
+}

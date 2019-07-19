@@ -1,0 +1,13 @@
+package array2;
+
+public class Array1Test {
+	public static void main(String[] args) {
+		//1.선언
+		int[] a;//int a[];
+		//2.생성
+		a=new int[3];
+		//1+2
+		int[] b=new int[3];
+
+	}
+}

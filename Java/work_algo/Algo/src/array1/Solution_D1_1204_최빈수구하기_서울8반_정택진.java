@@ -37,5 +37,7 @@ public class Solution_D1_1204_최빈수구하기_서울8반_정택진{
 			
 			System.out.println("#" + i + " " + number);
 		}
+		
+		sc.close();
 	}
 }

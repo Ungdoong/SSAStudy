@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
 
 public class Solution_D3_5215_햄버거다이어트_서울8반_정택진{
 	public static int lim_cal;

@@ -1,0 +1,9 @@
+package com.ssafy.algo;
+
+import java.io.FileInputStream;
+
+public class Solution21소금쟁이중첩_서울8반_정택진 {
+	public static void main(String[] args) {
+		System.setIn(new FileInputStream("res/Solution21소금쟁이중첩.txt"));
+	}
+}

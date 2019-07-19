@@ -3,7 +3,7 @@ package d3;
 import java.io.FileInputStream;
 import java.util.Scanner;
 
-public class Solution_d3_1206_View_¼­¿ï8¹İ_Á¤ÅÃÁø {
+public class Solution_d3_1206_View_ì„œìš¸8ë°˜_ì •íƒì§„ {
 	public static void main(String[] args) throws Exception{
 		System.setIn(new FileInputStream("res/input_d3_1206.txt"));
 		Scanner sc = new Scanner(System.in);

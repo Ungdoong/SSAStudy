@@ -11,5 +11,7 @@ public class Solution_D1_2046_스탬프찍기_서울8반_정택진{
 		for(int tc = 1; tc <= T; tc++){
 			System.out.print("#");
 		}
+		
+		sc.close();
 	}
 }

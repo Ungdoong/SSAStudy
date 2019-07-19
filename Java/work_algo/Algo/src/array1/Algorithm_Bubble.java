@@ -1,7 +1,6 @@
 package array1;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Algorithm_Bubble {
 

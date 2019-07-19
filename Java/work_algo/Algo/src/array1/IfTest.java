@@ -1,7 +1,6 @@
 package array1;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class IfTest {
 	public static void main(String[] args) {

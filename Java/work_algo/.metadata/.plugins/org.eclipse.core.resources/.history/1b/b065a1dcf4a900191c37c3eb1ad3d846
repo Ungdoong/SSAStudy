@@ -1,0 +1,62 @@
+package com.ssafy.algo;
+
+import java.io.FileInputStream;
+import java.util.Scanner;
+
+public class Solution42미로도착지점_서울8반_정택진 {
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("Solution42미로도착지점.txt"));
+		Scanner sc = new Scanner(System.in);
+		
+		int tn=sc.nextInt();
+		
+		for(int tc=1; tc<tn; tc++) {
+			int N = sc.nextInt()+1;	//배열크기
+			boolean[][] miro=new boolean[N][N];
+			int y = sc.nextInt();
+			int x = sc.nextInt();
+			int num_jumper = sc.nextInt();
+			
+			
+			for(int jumper=0; jumper<num_jumper; jumper++) {
+				int jy=sc.nextInt();
+				int jx=sc.nextInt();
+				miro[jy][jx]=true;
+			}
+			
+			int num_dir=sc.nextInt();
+			boolean flag=true;
+			for(int round=0;round<num_dir;round++) {
+				int dir=sc.nextInt();
+				int dis=sc.nextInt();
+				if(!miro[y][x]) {
+					switch(dir) {
+					case 1:
+						while(dis > 0) {
+							if(!miro[y-1][x]) {
+								y=y-1;
+								dis--;
+							}
+							else{ x=0; y=0; }
+						}
+						break;
+					case 2:
+						break;
+					case 3:
+						break;
+					case 4:
+						break;
+					}
+				}
+				else {
+					x=0; y=0;
+				}
+				
+				if(x==0 && y==0)
+					break;
+			}
+		}
+		
+		sc.close();
+	}
+}

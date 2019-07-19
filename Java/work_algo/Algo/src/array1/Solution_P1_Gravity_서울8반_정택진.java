@@ -1,8 +1,5 @@
 package array1;
-import java.util.Arrays;
 import java.util.Random;
-import java.util.Scanner;
-import java.io.FileInputStream;
 
 public class Solution_P1_Gravity_서울8반_정택진{
 	public static void build_data(int[] data) {
