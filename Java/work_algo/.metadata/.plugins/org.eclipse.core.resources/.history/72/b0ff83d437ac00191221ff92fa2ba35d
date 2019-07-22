@@ -1,0 +1,18 @@
+package array2;
+
+import java.util.Scanner;
+
+public class Product {
+	public static int n,r,caseCount,data[];
+	
+	public static void product(int count)
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		n=sc.nextInt();
+		r=sc.nextInt();
+		data=new int[r];
+		product(0);
+		System.out.println(caseCount);
+	}
+}

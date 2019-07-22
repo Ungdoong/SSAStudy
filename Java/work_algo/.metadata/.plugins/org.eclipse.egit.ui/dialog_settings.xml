@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="2" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="C:\Users\student\git\algogit\.git" key="GitSelectRepositoryPage.lastRepository"/>
 	<list key="EGit.KnownHosts">
 		<item value="bitbucket.org"/>
 		<item value="github.com"/>
@@ -8,8 +9,8 @@
 		<item value="lab.ssafy.com"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
-		<item value="https://lab.ssafy.com/ungdoong/algohw.git"/>
 		<item value="https://lab.ssafy.com/02/seoul08/algogit.git"/>
+		<item value="https://lab.ssafy.com/ungdoong/algohw.git"/>
 	</list>
 	<list key="CommitDialog.authorValues">
 		<item value="Ungdoong &lt;xorwls124@gmail.com&gt;"/>
@@ -34,7 +35,7 @@
 		<item value="1338" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="400" key="DIALOG_HEIGHT"/>
-		<item value="-533" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
 		<item value="300" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="GitCommitMessageComponent">

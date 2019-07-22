@@ -1,0 +1,23 @@
+package d4;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+
+public class Solution_d4_1219_길찾기_서울8반_정택진 {
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("res/input_d4_1219.txt"));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		for(int tc=1; tc<=10; tc++) {
+			int N = Integer.parseInt(br.readLine().split(" ")[1]);
+			int[][] route = new int[100][2];
+			
+			for(int i=0; i<N; i++) {
+				int num = br.read();
+				if(route[br.read()][0] == 0)
+					route[]
+			}
+		}
+	}
+}

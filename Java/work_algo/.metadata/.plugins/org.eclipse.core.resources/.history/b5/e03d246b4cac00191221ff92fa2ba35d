@@ -1,0 +1,12 @@
+package array1;
+
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		System.out.println(0b10|0b01);
+		
+		System.out.println((1234&1) == 0)? "짝":"홀");
+	}
+}

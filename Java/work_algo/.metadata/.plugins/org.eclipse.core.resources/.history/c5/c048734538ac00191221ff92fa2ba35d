@@ -1,0 +1,11 @@
+package array2;
+
+public class Sum {
+	public static int sum(int n) {
+		int x=0;
+		while
+	}
+	public static void main(String[] args) {
+		
+	}
+}

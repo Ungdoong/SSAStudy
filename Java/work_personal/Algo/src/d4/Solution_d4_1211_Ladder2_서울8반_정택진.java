@@ -7,7 +7,7 @@ public class Solution_d4_1211_Ladder2_서울8반_정택진 {
 	static int dis;
 	
 	public static void main(String[] args) throws Exception{
-		System.setIn(new FileInputStream("res/input_D4_1210.txt"));
+		System.setIn(new FileInputStream("res/input_D4_1211.txt"));
 		Scanner sc = new Scanner(System.in);
 		
 		
@@ -24,23 +24,29 @@ public class Solution_d4_1211_Ladder2_서울8반_정택진 {
 			}
 			
 			//첫행 루프
+			int pos_x=0, min=Integer.MAX_VALUE;
 			for(int x=0; x<100; x++) {
 				int state=0; //0:대기상태 1:아래로이동 2:우로이동 3:좌로이동
 				dis=0;
 				if(ladder[0][x] == 1) {
 					state=1;
-					if(findDst(x, 0, state) {
-						System.out.println("#"+tc+" "+x);
-						break;
+					findDst(x, 0, state);
+					
+					if(min>dis) {
+						min=dis;
+						pos_x=x;
 					}
 				}
 			}
+			
+			System.out.println("#"+tc+" "+pos_x);
 		}
 		
 		sc.close();
 	}
 	
 	static boolean findDst(int x, int y, int state) {
+		dis++;
 		switch(state) {
 		case 1:
 			if((x+1)<100 && ladder[y][x+1] >= 1) {

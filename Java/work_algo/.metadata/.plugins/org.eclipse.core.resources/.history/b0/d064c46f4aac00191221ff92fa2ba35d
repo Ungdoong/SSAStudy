@@ -1,0 +1,29 @@
+package array2;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+
+public class SubsetSum {
+	public static boolean[] flags;
+	public static int N, sum;
+	
+	public static boolean solve(int count) {
+		if(count == N) {
+			
+		}
+	}
+	
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("res/input_subsetsum.txt"));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		String[] str_numbers = br.readLine().split(" ");
+		N = str_numbers.length;
+		int[] numbers = new int[N];
+		for(int i=0; i<N; i++)
+			numbers[i] = Integer.parseInt(str_numbers[i]);
+		
+		flags = new boolean[N];
+	}
+}

@@ -1,0 +1,13 @@
+package array2;
+
+public class Sum {
+	public static int sum(int n) {
+		int x=0,sum=0;
+		while(x<=n) {
+			sum+=x;
+		}
+	}
+	public static void main(String[] args) {
+		
+	}
+}

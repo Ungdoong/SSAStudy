@@ -1,7 +1,5 @@
 package array2;
 
-import java.util.Arrays;
-
 public class Array2 {
 
 	public static void main(String[] args) {

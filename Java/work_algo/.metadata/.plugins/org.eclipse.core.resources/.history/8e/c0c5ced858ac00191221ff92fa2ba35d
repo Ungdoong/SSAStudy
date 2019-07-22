@@ -1,0 +1,9 @@
+package array2;
+
+import java.io.FileInputStream;
+
+public class BinarySearch1_반복_서울8반_정택진 {
+	public static void main(String[] args) {
+		System.setIn(new FileInputStream("res/input_binarysearch1.txt"));
+	}
+}

@@ -1,16 +1,19 @@
 package array1;
 
-import java.util.Scanner;
-
 public class Hello {
+	public static int[] data= {1,2,3,4};
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		String s1=sc.nextLine();
-		String s2=sc.nextLine();
-		int tc = sc.nextInt();
-		System.out.println(tc + ": "+ s1 + " / " + s2);
-		
-		sc.close();
+		for(int i=0; i<(1<<data.length); i++) {
+			int sum=0;
+			for(int j=0; j<data.length; j++) {
+				if((i&(1<<j))>0) {
+					System.out.print(data[j]+" ");
+					sum=sum+data[j];
+				}
+			}
+			
+			System.out.println(" sum="+sum);
+		}
 	}
 }

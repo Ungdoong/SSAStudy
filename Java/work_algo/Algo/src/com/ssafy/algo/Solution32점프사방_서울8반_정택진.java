@@ -55,9 +55,8 @@ public class Solution32점프사방_서울8반_정택진 {
 							&& area[y][x] != 0) {
 							cur_number=area[y][x];
 						}
-						else {
+						else
 							cur_number=0;
-						}
 						break;
 					case 2:
 						y = y+(area[y][x]%10);
@@ -66,9 +65,8 @@ public class Solution32점프사방_서울8반_정택진 {
 							&& area[y][x] != 0) {
 							cur_number=area[y][x];
 						}
-						else {
+						else
 							cur_number=0;
-						}
 						break;
 					case 3:
 						x = x-(area[y][x]%10);
@@ -77,9 +75,8 @@ public class Solution32점프사방_서울8반_정택진 {
 							&& area[y][x] != 0) {
 							cur_number=area[y][x];
 						}
-						else {
+						else
 							cur_number=0;
-						}
 						break;
 					case 4:
 						y = y-(area[y][x]%10);
@@ -88,9 +85,8 @@ public class Solution32점프사방_서울8반_정택진 {
 							&& area[y][x] != 0) {
 							cur_number=area[y][x];
 						}
-						else {
+						else
 							cur_number=0;
-						}
 						break;
 					}
 					
