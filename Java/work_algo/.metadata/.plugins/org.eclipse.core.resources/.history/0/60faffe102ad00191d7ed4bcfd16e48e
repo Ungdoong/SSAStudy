@@ -1,0 +1,9 @@
+package array2;
+
+import java.io.FileInputStream;
+
+public class Solution_d2_1959_두개의숫자열_서울8반_정택진 {
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("res/input_d2_1959.txt"));
+	}
+}

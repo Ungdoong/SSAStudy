@@ -1,0 +1,8 @@
+package array2;
+
+public class Selection {
+	public static final int[] a= {3,8,4,7,4,7,34,3,5,7,4,8,45,3};
+	public static void main(String[] args) {
+		
+	}
+}

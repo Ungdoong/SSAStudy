@@ -1,0 +1,18 @@
+package array2;
+
+import java.util.Arrays;
+
+public class Selection {
+	public static final int[] a= {3,8,4,7,4,7,34,3,5,7,4,8,45,3};
+	
+	public static int select(int key) {
+		for(int i=0; i<key; i++) {
+			int minIndex=i;
+			int minValue=a[i];
+		}
+	}
+	
+	public static void main(String[] args) {
+		Arrays.sort(a);
+	}
+}

@@ -1,0 +1,32 @@
+package d4;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.Stack;
+
+public class Practice_계산기 {
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("res/input_d4_1223.txt"));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		for(int tc=1; tc<=10; tc++) {
+			Stack<Character> operStack = new Stack<>();
+			Stack<Character> postStack = new Stack<>();
+			Stack<Character> calStack = new Stack<>();
+			
+			int N=Integer.parseInt(br.readLine());
+			
+			String line=br.readLine();
+			for(int i=0; i<N; i++) {
+				char input=line.charAt(i);
+				
+				if(input == '(')
+					operStack.push(input);
+				else if(input == ')')
+					while(operStack.peek() != '(')
+						postStack.push(operStack.pop());
+			}
+		}
+	}
+}

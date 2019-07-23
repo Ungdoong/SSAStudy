@@ -1,0 +1,8 @@
+package array2;
+
+public class SelectionSort {
+	public static final int[] a= {2,8,4,7,4,34,7,4,6,4,6,7,3,8,45};
+	public static void main(String[] args) {
+		
+	}
+}

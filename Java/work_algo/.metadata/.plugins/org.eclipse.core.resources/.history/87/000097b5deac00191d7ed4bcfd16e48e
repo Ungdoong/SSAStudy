@@ -1,0 +1,16 @@
+package array2;
+
+public class Product_Practice {
+	public static int n, r;
+	
+	public static void product(int count) {
+		if(count == r)
+	}
+
+	public static void main(String[] args) {
+		n=6;
+		r=3;
+		
+		
+	}
+}

@@ -1,0 +1,31 @@
+package d3;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Solution_d3_1221_GNS_서울8반_정택진 {
+	public static final String[] str_numbers = {"ZRO", "ONE", "TWO", "THR", "FOR", "FIV", "SIX", "SVN", "EGT", "NIN"};
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("res/input_d3_1221.txt"));
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		int T=Integer.parseInt(br.readLine());
+		
+		for(int tc=1; tc<=T; tc++) {
+			br.readLine();
+			String[] str_arr = br.readLine().split(" ");
+			
+			//버블 소트
+			for(int i=str_arr.length-1; i>0; i--) {
+				for(int j=0; j<i; j++) {
+					int src, dst;
+					for(int k=0; k<str_numbers.length; k++) {
+						if(str_arr[j].equals(str_numbers[j]))
+							src = j;
+					}
+				}
+			}
+		}
+	}
+}

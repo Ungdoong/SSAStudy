@@ -1,0 +1,13 @@
+package array2;
+
+public class Permutation_Practice {
+	public static int n, r, casecount;
+	public static int[] a;
+	
+	public static void main(String[] args) {
+		n=6; r=3; casecount=0;
+		a=new int[r];
+		
+		System.out.println(casecount);
+	}
+}

@@ -1,0 +1,8 @@
+package array2;
+
+public class Combination_Practice {
+	public static int n, r, caseCount, a[];
+	public static void main(String[] args) {
+		
+	}
+}

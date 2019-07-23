@@ -1,0 +1,9 @@
+package d2;
+
+import java.io.FileInputStream;
+
+public class Solution_d2_1989_초심자의회문검사_서울8반_정택진 {
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("res/input_d2_1989.txt"));
+	}
+}

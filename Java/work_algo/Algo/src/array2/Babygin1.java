@@ -3,7 +3,6 @@ package array2;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Babygin1 {
@@ -24,19 +23,16 @@ public class Babygin1 {
 			for(int i=0; i<counts.length; i++) {
 				if(counts[i] >= 3) {
 					counts[i] -= 3;
-					i=0;
+					i--;
 				}
-			}
-			
-			//run 판별
-			for(int i=0; i<counts.length; i++) {
-					if((i+2)<counts.length && counts[i] != 0
-							&& counts[i+1] != 0 && counts[i+2] != 0) {
-						counts[i]--;
-						counts[i+1]--;
-						counts[i+2]--;
-						i=0;
-					}
+				//run 판별
+				else if((i-2)>=0 && counts[i] != 0
+						&& counts[i-1] != 0 && counts[i-2] != 0) {
+					counts[i]--;
+					counts[i-1]--;
+					counts[i-2]--;
+					i--;
+				}
 			}
 			
 			//babygin 확인

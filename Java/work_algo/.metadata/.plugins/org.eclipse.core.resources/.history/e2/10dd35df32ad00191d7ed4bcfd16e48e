@@ -1,0 +1,7 @@
+package array2;
+
+public class SelectionSearch {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package array2;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+
+public class Solution_d2_1959_두개의숫자열_서울8반_정택진 {
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("res/input_d2_1959.txt"));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	}
+}

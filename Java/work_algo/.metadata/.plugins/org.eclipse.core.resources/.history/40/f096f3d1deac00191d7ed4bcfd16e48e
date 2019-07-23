@@ -1,0 +1,21 @@
+package array2;
+
+public class Product_Practice {
+	public static int n, r, casecount;
+	public static int[] a;
+	
+	public static void product(int count) {
+		if(count == r) {
+			casecount++;
+			System.out.println();
+		}
+	}
+
+	public static void main(String[] args) {
+		n=6;
+		r=3;
+		casecount=0;
+		
+		
+	}
+}

@@ -1,0 +1,23 @@
+package array2;
+
+import java.util.Arrays;
+
+public class Permutation_Practice {
+	public static int n, r, casecount, flag;
+	public static int[] a;
+	
+	public static void permutation(int count) {
+		if(count==r) {
+			casecount++;
+			System.out.println(Arrays.toString(a));
+			return;
+		}
+	}
+	
+	public static void main(String[] args) {
+		n=6; r=3; casecount=0, flag=0;
+		a=new int[r];
+		
+		System.out.println(casecount);
+	}
+}

@@ -1,0 +1,9 @@
+package d4;
+
+import java.io.FileInputStream;
+
+public class Solution_d4_1223_계산기2_서울8반_정택진 {
+	public static void main(String[] args) throws Exception{
+		System.setIn(new FileInputStream("res/input_d4_1223.txt"));
+	}
+}

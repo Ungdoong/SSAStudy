@@ -20,8 +20,8 @@ public class Homogeneous {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        n=sc.nextInt();
-        r=sc.nextInt();
+        n=6;//sc.nextInt();
+        r=3;//sc.nextInt();
         data=new int[r];
         homogeneous(1,0);
         System.out.println(caseCount);

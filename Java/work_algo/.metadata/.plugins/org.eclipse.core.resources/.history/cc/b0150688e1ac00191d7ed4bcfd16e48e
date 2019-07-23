@@ -1,0 +1,11 @@
+package array2;
+
+public class Homogeneous_Practice {
+	public static int n, r, casecount;
+	public static int[] a;
+	public static void main(String[] args) {
+		n=6;
+		r=3;
+		a=new int[3];
+	}
+}
