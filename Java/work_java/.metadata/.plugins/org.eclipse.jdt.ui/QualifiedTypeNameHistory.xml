@@ -6,4 +6,16 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.awt.Frame"/>
+<fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+<fullyQualifiedTypeName name="java.awt.Button"/>
+<fullyQualifiedTypeName name="java.awt.Checkbox"/>
+<fullyQualifiedTypeName name="com.object.Employee"/>
+<fullyQualifiedTypeName name="com.object.Manager"/>
+<fullyQualifiedTypeName name="com.object.BonusTest"/>
+<fullyQualifiedTypeName name="java04_서울_8반_정택진.Magazine"/>
+<fullyQualifiedTypeName name="java04_서울_8반_정택진.BookTest"/>
+<fullyQualifiedTypeName name="java04_서울_8반_정택진.Book"/>
+<fullyQualifiedTypeName name="hwjava04_서울_8반_정택진.TV"/>
+<fullyQualifiedTypeName name="hwjava04_서울_8반_정택진.Refrigerator"/>
 </qualifiedTypeNameHistroy>

@@ -1,7 +1,5 @@
 package com.basic;
 
-import java.util.Scanner;
-
 public class MethodTest2 {
 	//1.메소드 정의 2.사용
 	//printGreeting(): 이름을 매개변수로 입력받아 그 앞에 "...be happy!"를 붙여 출력

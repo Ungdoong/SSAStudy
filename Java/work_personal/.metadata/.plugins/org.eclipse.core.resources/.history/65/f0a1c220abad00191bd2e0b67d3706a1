@@ -1,0 +1,13 @@
+package algorithm;
+
+public class BruteForce {
+	
+	public static int bruteForce(char[] p, char[] t) {
+		
+	}
+	
+	public static void main(String[] args) {
+		char[] a = {'b', 'c', 'a', 'd', 'a', 'b', 'c', 'e'};
+		char[] b = {'a', 'b', 'c'};
+	}
+}
