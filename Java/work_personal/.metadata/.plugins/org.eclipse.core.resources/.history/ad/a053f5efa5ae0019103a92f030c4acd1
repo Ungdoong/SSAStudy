@@ -1,0 +1,10 @@
+package algorithm;
+
+public class Boyer_Moore {
+
+	public static void main(String[] args) {
+		String pattern="abcabdfeabfeabcae";
+		String str="dsfabcabdfeabfeabdfedsfeabcabdfeabfeabdfedfefabcabdfeabfeabdfedfwefsdfs";
+		System.out.println("#"+tc+" "+kmp(str, pattern));
+	}
+}
